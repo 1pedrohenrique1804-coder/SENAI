@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    place-items: center;
+}
+
+
+.card {
+    height: 400px;
+    width: 300px;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(30, 3, 48), rgb(100, 4, 100));
+    box-shadow: 0px 10px 50px red ;
+
+
+}
+
+img {
+    width: 300px;
+    height: 150px;
+    border-radius: 10px 10px 0px 0px 
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+    color: red;
+}
+main{
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 1;
+    border-color: rgb(56, 3, 80);
+    border: 2px solid rgb(187, 12, 12);
+
+}
+ p{
+    font-size: 20px;
+    color: rgb(187, 12, 12);
+ }
+
+ small{ 
+  display: block;
+  text-align: center;
+  opacity: 50%;
+
+ }
