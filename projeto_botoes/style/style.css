@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    padding: 20px;
+    font-weight: 700;
+}
+
+#quadrado {
+    border: 1px solid black;
+    border-radius: 0;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+#quadrado:hover {
+    background-color: black;
+    color: white;
+}
+
+#oval {
+    background-color: #80E8FF;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+#oval:hover {
+    background-color: #9EEDFF;
+}
+
+#verde {
+    background-color: #41FF6A;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+#verde:hover {
+    background-color: #8BFFA4;
+}
+
+#rosa {
+    background-color: #FF00C8;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+#rosa:hover {
+    border: 1px solid #FF00C8;
+    background-color: white;
+    color: #FF00C8;
+}
+
+#red {
+    background-color: white;
+    color: #FF0000;
+    border-radius: 30px;
+    border: 1px solid #FF0000;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+#red:hover {
+    background-color: #FF0000;
+    color: white;
+}
+
+#black {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 2px 1px black;
+}
+
+#black:hover {
+    background-color: #525252;
+    color: white;
+}
+
+#saiba {
+    color: black;
+    border: 0;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 2px 0px black;
+}
+
+#saiba:hover {
+    color: #626262;
+    box-shadow: 0px 2px 0px #626262;
+}
+
+#pesq {
+    color: black;
+    border: 1px solid black;
+    background-color: #FAC02C;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: -2px 0px 0px black;
+}
+
+#pesq:hover {
+    background-color: white;
+    border-color: #FAC02C;
+    box-shadow: -2px 0px 0px #FAC02C;
+}
+
+#login {
+    color: #005810;
+    border: 1px solid #005810;
+    background-color: #15FF00;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px 0px 20px 0px ;
+    text-align: center;
+}
+
+#login:hover {
+    background-color: #005810;
+    color: #15FF00;
+}
+
+#roxo {
+    color: #640069;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px dashed #640069;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+#roxo:hover {
+    background-color: #640069;
+    color: white;
+}
