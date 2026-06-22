@@ -1,22 +1,187 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #D9D9D9;
-    align-items: center;
-    padding: 30px 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 80px;
+   background:
+    radial-gradient(
+      circle at 15% 10%,
+      rgba(72, 184, 255, 0.7),
+      transparent 30%
+    ),
+    linear-gradient(
+      to bottom,
+      #0f6dc7,
+      #0b58b0,
+      #073d8e
+    );
 }
 
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.links a {
+  color: rgb(0, 0, 0); /* ⬅️ ALTERE */
+  text-transform: uppercase;
+
+}
 .hero {
+  height: 70vh;
+  width: 100%;
+
+  background-image: url("fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: center 20%;
+}
+.hero h1 {
+  color: #434343; /* ⬅️ ALTERE */
+  font-size: 64px;
+}
+
+.cards {
+  padding: 80px 0;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 250px;
+  padding: 22px;
+  background:  #003697; /* ⬅️ ALTERE */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.card-img1 {
+  height: 150px;
+
+  background-image: url("god.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+
+  background-position: center 10%;
+}
+.card-img2 {
+  height: 150px;
+
+  background-image: url("tlou.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+
+  background-position: center 40%;
+}
+.card-img3 {
+  height: 150px;
+
+  background-image: url("carro.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+
+  background-position: center 40%;
+}
+.card-img4 {
+  height: 150px;
+
+  background-image: url("mine.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+
+  background-position: center 10%;
+}
+.card-img5 {
+  height: 150px;
+
+  background-image: url("call.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+
+  background-position: center 10%;
+}
+
+.card-img6 {
+  height: 150px;
+
+  background-image: url("int.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+
+  background-position: center 10%;
+}
+
+footer {
+  padding: 30px 0px;
+  background-color:  #003697;
+  text-align: center;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  min-height: 100vh;
+
+  background:
+    radial-gradient(
+      circle at 15% 10%,
+      rgba(72, 184, 255, 0.7),
+      transparent 30%
+    ),
+    linear-gradient(
+      to bottom,
+      #0f6dc7,
+      #0b58b0,
+      #073d8e
+    );
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.top{
     display: flex;
-    align-items: center;
+    background-color: black;
+    height: 50px;
+    justify-content: flex-end;
+}
+
+.btn{
+    display: flex;
+    border-radius: 10px;
     justify-content: center;
-    background-color: #767676;
-    height: 300px;
-    color: #2c2c2c;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: solid white;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    color: white;
+    background-color: black;
+}
+
+div{
+    color: white;
 }
