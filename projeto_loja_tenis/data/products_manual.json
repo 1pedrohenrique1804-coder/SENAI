@@ -1,0 +1,110 @@
+[
+  {
+    "filename": "tenis1.jpg",
+    "suggestedTitle": "Air Force 1 Louis Vuitton",
+    "suggestedDescription": "Edição de luxo inspirada no clássico Air Force 1, com acabamento em couro branco e detalhes Louis Vuitton. Sola vulcanizada e acabamento premium, ideal para colecionadores e uso urbano sofisticado.",
+    "sources": [
+      {"title":"Louis Vuitton — Site Oficial","url":"https://www.louisvuitton.com/","snippet":"Página oficial da Louis Vuitton — consulte a seção de calçados e colaborações para modelos especiais."},
+      {"title":"Cobertura de colaborações — Hypebeast","url":"https://hypebeast.com/","snippet":"Artigos sobre colaborações entre marcas de luxo e marcas de sneakers, incluindo edições especiais do Air Force 1."}
+    ]
+  },
+  {
+    "filename": "tenis2.jpg",
+    "suggestedTitle": "Air Max TN Black",
+    "suggestedDescription": "Silhueta TN (Air Max Plus) em preto com unidade Tuned Air (TN) proporcionando amortecimento reativo e visual agressivo. Excelente para uso urbano com estilo marcante.",
+    "sources": [
+      {"title":"Air Max Plus — Nike Official","url":"https://www.nike.com/air-max-plus","snippet":"Página oficial do Air Max Plus (TN) com imagens, tecnologias e opções de cores."},
+      {"title":"Air Max Plus — Review (RunRepeat)","url":"https://runrepeat.com/nike-air-max-plus-review","snippet":"Review com foco no ajuste, amortecimento Tuned Air e durabilidade do Air Max Plus."}
+    ]
+  },
+  {
+    "filename": "tenis3.jpg",
+    "suggestedTitle": "Air Max TN Blue",
+    "suggestedDescription": "Silhueta TN (Air Max Plus) em azul com unidade Tuned Air (TN), combinando conforto e design esportivo. Ideal para quem busca presença visual com bom amortecimento.",
+    "sources": [
+      {"title":"Air Max Plus — Nike Official","url":"https://www.nike.com/air-max-plus","snippet":"Página oficial do Air Max Plus (TN) com imagens, tecnologias e opções de cores."},
+      {"title":"Air Max Plus — Review (Sneaker News)","url":"https://sneakernews.com/?s=air+max+plus","snippet":"Cobertura de lançamentos e reviews do Air Max Plus em diferentes colorways."}
+    ]
+  },
+  {
+    "filename": "tenis4.jpg",
+    "suggestedTitle": "Vans Old Skool",
+    "suggestedDescription": "Tênis icônico com lateral em couro sintético e a faixa lateral clássica, projetado originalmente para skate mas amplamente usado no dia a dia. Combina durabilidade e estilo vintage.",
+    "sources": [
+      {"title":"Old Skool — Vans Official","url":"https://www.vans.com/shop/shoes-classics-old-skool","snippet":"Página oficial do Old Skool com opções de cores e informações sobre materiais."},
+      {"title":"Vans Old Skool — Review (The Guardian)","url":"https://www.theguardian.com/fashion/vans-old-skool-review","snippet":"Comentário sobre o sucesso cultural do modelo e seu apelo atemporal."}
+    ]
+  },
+  {
+    "filename": "tenis5.jpg",
+    "suggestedTitle": "Puma Suede Classic",
+    "suggestedDescription": "Modelo clássico em camurça com design limpo e sotaque retrô, pensado para conforto urbano e aparência elegante. Versátil para looks casuais e lifestyle.",
+    "sources": [
+      {"title":"Suede Classic — PUMA Official","url":"https://us.puma.com/en/us/pd/suede-classic","snippet":"Página oficial com detalhes do material suede e opções de cores."},
+      {"title":"Puma Suede — História e Review","url":"https://www.highsnobiety.com/puma-suede-history-review","snippet":"Contexto histórico do Suede e sua influência na cultura streetwear."}
+    ]
+  },
+  {
+    "filename": "tenis6.jpg",
+    "suggestedTitle": "New Balance 574",
+    "suggestedDescription": "Modelo clássico New Balance com foco em conforto e durabilidade, adequado para uso diário. Estilo retro com combinação de materiais no cabedal.",
+    "sources": [
+      {"title":"574 Core — New Balance","url":"https://www.newbalance.com/pd/574-classic/574.html","snippet":"Página oficial do 574 com descrições de materiais e opções de tamanhos."},
+      {"title":"New Balance 574 — Review (WearTesters)","url":"https://weartesters.com/new-balance-574-review","snippet":"Análise do ajuste e conforto do 574 para uso cotidiano."}
+    ]
+  },
+  {
+    "filename": "tenis7.jpg",
+    "suggestedTitle": "ASICS GEL-KAYANO",
+    "suggestedDescription": "Tênis de running com sistema GEL para amortecimento e estabilidade, indicado para corridas e treinos regulares. Combina tecnologia de suporte com acabamento contemporâneo.",
+    "sources": [
+      {"title":"GEL-KAYANO — ASICS Official","url":"https://www.asics.com/us/en-us/gel-kayano/c/gel-kayano","snippet":"Página oficial com tecnologias embarcadas e versões do modelo GEL‑KAYANO."},
+      {"title":"ASICS GEL-KAYANO — Review (Runner's World)","url":"https://www.runnersworld.com/asics-gel-kayano-review","snippet":"Revisão técnica focada em estabilidade e experiência de corrida."}
+    ]
+  },
+  {
+    "filename": "tenis8.jpg",
+    "suggestedTitle": "Reebok Classic Leather",
+    "suggestedDescription": "Tênis retro em couro com perfil limpo e sola confortável, ideal para quem busca um visual minimalista e tradição. Fácil de combinar em looks casuais.",
+    "sources": [
+      {"title":"Classic Leather — Reebok Official","url":"https://www.reebok.com/us/classic-leather","snippet":"Página oficial do Classic Leather com imagens e opções de cores."},
+      {"title":"Reebok Classic Leather — História (Hypebeast)","url":"https://hypebeast.com/reebok-classic-leather-history","snippet":"Contexto cultural e evolução do modelo Classic Leather."}
+    ]
+  },
+  {
+    "filename": "tenis9.jpg",
+    "suggestedTitle": "Air Jordan 1",
+    "suggestedDescription": "Tênis icônico da linha Jordan com design inspirado no basquete e forte apelo fashion. Versão versátil que transita entre performance e lifestyle.",
+    "sources": [
+      {"title":"Air Jordan 1 — Nike Jordan","url":"https://www.nike.com/jordan","snippet":"Seção oficial Jordan com modelos Air Jordan 1 e lançamentos relacionados."},
+      {"title":"Air Jordan 1 — História e Impacto","url":"https://www.complex.com/sneakers/air-jordan-1-history","snippet":"Artigo detalhando a história e a influência da AJ1 na cultura sneaker."}
+    ]
+  },
+  {
+    "filename": "tenis10.jpg",
+    "suggestedTitle": "Skechers D'Lites",
+    "suggestedDescription": "Modelo com sola robusta e estilo chunky, pensado para conforto diário com estética retrô. Apelo para quem busca amortecimento e presença visual.",
+    "sources": [
+      {"title":"D'Lites — Skechers Official","url":"https://www.skechers.com/dlites","snippet":"Página oficial com variantes do D'Lites e informações sobre amortecimento."},
+      {"title":"Skechers D'Lites — Review (Footwear News)","url":"https://footwearnews.com/skechers-dlites-review","snippet":"Comentário sobre popularidade e conforto do modelo D'Lites."}
+    ]
+  },
+  {
+    "filename": "tenis11.jpg",
+    "suggestedTitle": "Mizuno Wave Rider",
+    "suggestedDescription": "Tênis de corrida conhecido pelo amortecimento reativo e placa Wave que fornece transição suave. Adequado para corredores que buscam equilíbrio entre resposta e conforto.",
+    "sources": [
+      {"title":"Wave Rider — Mizuno Official","url":"https://www.mizunousa.com/c/wave-rider","snippet":"Página oficial com tecnologias Wave e especificações de diferentes gerações."},
+      {"title":"Mizuno Wave Rider — Review (Believe In The Run)","url":"https://www.believeintherun.com/mizuno-wave-rider-review","snippet":"Análise técnica sobre amortecimento e comportamento em corrida."}
+    ]
+  },
+  {
+    "filename": "tenis12.jpg",
+    "suggestedTitle": "Hoka Clifton",
+    "suggestedDescription": "Tênis com entressola macia e perfil acolchoado que prioriza amortecimento leve e conforto para longas caminhadas ou corridas. Design minimalista e ajuste confortável.",
+    "sources": [
+      {"title":"Clifton — HOKA Official","url":"https://www.hoka.com/en/us/clifton/","snippet":"Página oficial com descrições de amortecimento e versões do Clifton."},
+      {"title":"Hoka Clifton — Review (Runner's World)","url":"https://www.runnersworld.com/hoka-clifton-review","snippet":"Avaliação destacando o conforto e aplicações ideais do Clifton."}
+    ]
+  }
+]

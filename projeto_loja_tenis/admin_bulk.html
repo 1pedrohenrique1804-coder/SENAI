@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bulk Editor — Loja Tênis Importados</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Editor em massa de produtos</h2>
+    <p class="muted">Edite títulos, preços e descrições aqui. Clique em <strong>Salvar local</strong> para salvar no navegador ou <strong>Exportar JSON</strong> para baixar um arquivo que pode ser colocado em `data/saved_meta.json`.</p>
+    <div id="list"></div>
+    <div style="margin-top:12px;display:flex;gap:8px">
+      <button id="saveLocal" class="btn">Salvar local</button>
+      <button id="exportJson" class="btn">Exportar JSON</button>
+      <a href="index.html" class="btn" style="background:#eee;color:#111">Voltar à loja</a>
+    </div>
+  </div>
+  <script src="js/admin.js"></script>
+</body>
+</html>
