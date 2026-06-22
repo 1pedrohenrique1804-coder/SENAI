@@ -2,6 +2,7 @@
 header {
     background-color: gray;
     height: 300px;
+
 }
 
 a {
@@ -11,7 +12,7 @@ a {
 
 .top-conteiner {
     display: flex;
-    background-color: #cac1a4;
+    background-color: #2b2b2b;
     color: black;
     height: 62px;
     justify-content: space-between;
@@ -19,7 +20,7 @@ a {
 }
 
 body {
-    background-color: #cac1a4;
+    background-color:  #2b2b2b;
 }
 
 * {
@@ -48,7 +49,7 @@ nav {
 
 .container-cards {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     gap: 20px;
     justify-content: center;
     margin: 40px;
@@ -57,7 +58,8 @@ nav {
 .box {
     display: flex;
     flex-direction: column;
-    width: calc(33.333% - 20px);
+    width:200px;
+    height: 150px;
     background-color: rgb(148, 141, 141);
     padding: 15px;
     gap: 10px;
@@ -78,11 +80,12 @@ nav {
     background: #c5c4c4;
     border: none;
     cursor: pointer;
+    text-align: center;
 }
 
 footer{
     display: flex;
-    background-color: #cac1a4;
+    background-color:rgb(54, 54, 54);
     justify-content: center;
     padding: 20px;
 }
