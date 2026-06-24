@@ -60,3 +60,13 @@ h2{
     display: flex;
     flex-wrap: wrap;
 }
+
+.card {
+    display: flex;
+    background-color: #000;
+    flex-direction: column;
+    margin: 40px;
+    width: 150px;
+    height: 100px;
+
+}
