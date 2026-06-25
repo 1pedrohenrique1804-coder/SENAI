@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+/* TOPBAR */
+.topbar {
+  background: #e60023;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.top-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.top-links a:hover {
+  opacity: 0.8;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  background: white;
+}
+
+.logo {
+  width: 130px;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s ease;
+}
+
+.menu a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.menu a:hover {
+  opacity: 0.8;
+  color: black;
+
+  
+}
+
+.btn {
+  background: #e60023;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+
+/* HERO */
+.hero {
+  position: relative;
+  height: 430px;
+}
+
+.hero-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 80px;
+  transform: translateY(-50%);
+  color: white;
+  max-width: 520px;
+}
+
+.hero-text h1 {
+  font-size: 34px;
+  line-height: 1.2;
+}
+
+.hero-text p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* SUSTENTABILIDADE */
+.sustentabilidade {
+
+  text-align: center;
+  padding: 40px 80px;
+}
+
+.sustentabilidade h2 {
+  margin-bottom: 10px;
+}
+
+/* MARCAS */
+.marcas-section {
+  text-align: center;
+  padding: 40px;
+}
+
+.marcas {
+  display: flex;
+  gap: 30px;
+  margin-top: 25px;
+  justify-content: center;
+}
+
+.card {
+  background: #FFFFFF;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.card img {
+  width: 100px;
+  cursor: pointer;
+}
+
+.card img:hover {
+  transform: scale(1.3);
+  transition: transform 0.5s ease;
+}
+
+.banner {
+  width: 70%;
+  height: 250px;
+  margin: 40px auto;
+  border-radius: 0px;
+  overflow: hidden;
+  background: url("../assets/background-container.png") center/cover;
+  position: relative;
+}
+
+/* TEXTO EM CIMA DA IMAGEM */
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  transform: translateY(-50%);
+  max-width: 400px;
+  color: white;
+}
+
+.banner-content h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.bttn {
+    font-weight: 800;
+    width: 300px;
+}
+
+.bttn:hover {
+    opacity: 2.9;
+    color: black;
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+}
+
+.banner-content p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* BOTÃO */
+.banner-content button {
+  background: #eeeeee;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+
+/* FOOTER */
+.footer {
+  background: black;
+  text-align: center;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-footer {
+  width: 140px;
+  cursor: pointer;
+}
+
+.logo-footer:hover {
+  transform: scale(1.3);
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.social img {
+  width: 22px;
+  margin: 0 15px;
+  cursor: pointer;   
+}
+
+.social img:hover {
+  transform: scale(1.5);
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+body {
+  background: #f1f1f1;
+}

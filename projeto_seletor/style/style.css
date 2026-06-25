@@ -1,187 +1,91 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  text-decoration: none;
-}
 
 header {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 80px;
-   background:
-    radial-gradient(
-      circle at 15% 10%,
-      rgba(72, 184, 255, 0.7),
-      transparent 30%
-    ),
-    linear-gradient(
-      to bottom,
-      #0f6dc7,
-      #0b58b0,
-      #073d8e
-    );
-}
-
-.links {
-  display: flex;
-  gap: 20px;
-}
-
-.links a {
-  color: rgb(0, 0, 0); /* ⬅️ ALTERE */
-  text-transform: uppercase;
+    background-color: gray;
+    height: 300px;
 
 }
-.hero {
-  height: 70vh;
-  width: 100%;
 
-  background-image: url("fundo.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  background-position: center 20%;
-}
-.hero h1 {
-  color: #434343; /* ⬅️ ALTERE */
-  font-size: 64px;
+a {
+    color: black;
+    text-decoration: none;
 }
 
-.cards {
-  padding: 80px 0;
-  display: flex;
-  gap: 50px;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 940px;
-  margin: 0 auto;
-}
-
-.card {
-  width: 250px;
-  padding: 22px;
-  background:  #003697; /* ⬅️ ALTERE */
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  border-radius: 10px;
-}
-
-.card-img1 {
-  height: 150px;
-
-  background-image: url("god.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 10px;
-
-  background-position: center 10%;
-}
-.card-img2 {
-  height: 150px;
-
-  background-image: url("tlou.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 10px;
-
-  background-position: center 40%;
-}
-.card-img3 {
-  height: 150px;
-
-  background-image: url("carro.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 10px;
-
-  background-position: center 40%;
-}
-.card-img4 {
-  height: 150px;
-
-  background-image: url("mine.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 10px;
-
-  background-position: center 10%;
-}
-.card-img5 {
-  height: 150px;
-
-  background-image: url("call.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 10px;
-
-  background-position: center 10%;
-}
-
-.card-img6 {
-  height: 150px;
-
-  background-image: url("int.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 10px;
-
-  background-position: center 10%;
-}
-
-footer {
-  padding: 30px 0px;
-  background-color:  #003697;
-  text-align: center;
+.top-conteiner {
+    display: flex;
+    background-color: #2b2b2b;
+    color: black;
+    height: 62px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
-  font-weight: bold;
-  min-height: 100vh;
-
-  background:
-    radial-gradient(
-      circle at 15% 10%,
-      rgba(72, 184, 255, 0.7),
-      transparent 30%
-    ),
-    linear-gradient(
-      to bottom,
-      #0f6dc7,
-      #0b58b0,
-      #073d8e
-    );
-
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-.top{
-    display: flex;
-    background-color: black;
-    height: 50px;
-    justify-content: flex-end;
+    background-color:  #2b2b2b;
 }
 
-.btn{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span {
+    margin: 10px;
+}
+
+nav {
     display: flex;
-    border-radius: 10px;
+    gap: 20px;
+}
+
+.title {
+    display: flex;
     justify-content: center;
-    color: rgb(0, 0, 0);
-    background-color: #ffffff;
-    border: solid white;
+    text-align: center;
+    color: rgb(54, 54, 54);
+    padding: 100px;
+}
+
+
+.container-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin: 40px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width:200px;
+    height: 150px;
+    background-color: rgb(148, 141, 141);
+    padding: 15px;
+    gap: 10px;
+}
+
+
+.int {
+    height: 100px;
+    width: 100%;
+    background-color: #c5c4c4;
+}
+
+
+.btn {
+    height: 40px;
+    width: 100%;
+    padding: 8px;
+    background: #c5c4c4;
+    border: none;
     cursor: pointer;
-
+    text-align: center;
 }
 
-.btn:hover {
-    color: white;
-    background-color: black;
-}
-
-div{
-    color: white;
+footer{
+    display: flex;
+    background-color:rgb(54, 54, 54);
+    justify-content: center;
+    padding: 20px;
 }
