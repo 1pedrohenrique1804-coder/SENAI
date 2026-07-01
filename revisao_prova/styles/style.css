@@ -165,32 +165,15 @@ body{
     display: flex;
     color: white;
     background-color: #000000;
-    display: flex;
     justify-content: space-between;
     padding: 40px 120px;
 }
 
-.socials a{
+.socials {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
     width: 32px;
     height: 32px;
-
-}
-
-.insta{
-    background-image: url(../assets/faInstagram.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.face{
-    background-image: url(../assets/faFacebookSquare.png);
-}
-
-.link{
-    background-image: url(../assets/faLinkedin.png);
-}
-
-.you{
-    background-image: url(../assets/faYoutube.png);
+    cursor: pointer;
 }
