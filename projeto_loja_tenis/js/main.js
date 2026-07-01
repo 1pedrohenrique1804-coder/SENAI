@@ -2,102 +2,94 @@ document.addEventListener('DOMContentLoaded',()=>{
   // Lista automática com imagens detectadas no projeto (atualize esta lista se adicionar/remover imagens)
   const detectedImages = [
     'tenis1.jpg','tenis2.jpg','tenis3.jpg','tenis4.jpg','tenis5.jpg','tenis6.jpg',
-    'tenis7.jpg','tenis8.jpg','tenis9.jpg','tenis10.jpg','tenis11.jpg','tenis12.jpg'
+    'tenis7.jpg','tenis8.jpg','tenis9.jpg','tenis10.jpg','tenis12.jpg'
   ];
 
   // Dados manuais coletados (busca manual) — título sugerido, descrição e fontes
   const MANUAL_DATA = {
     "tenis1.jpg": {
-      "title": "Air Force 1 Louis Vuitton",
-      "desc": "Edição de luxo inspirada no clássico Air Force 1, acabamento premium em couro branco com detalhes assinados Louis Vuitton. Sola vulcanizada, acabamento de alta qualidade e apelo fashion para colecionadores e uso urbano sofisticado.",
+      "title": "Nike Air Force 1 LV",
+      "desc": "O clássico indestrutível em colaboração com Louis Vuitton. Couro premium branco, acabamento de luxo e design intemporal. Perfeito para quem busca sofisticação com um toque de exclusividade.",
       "sources": [
         {"title":"Louis Vuitton — Site Oficial","url":"https://www.louisvuitton.com/","snippet":"Página oficial da Louis Vuitton — consulte a seção de calçados e colaborações para modelos especiais."},
         {"title":"Air Force 1 x colaborações — Hypebeast","url":"https://hypebeast.com/","snippet":"Coberturas e artigos sobre colaborações entre marcas de luxo e sneakers."}
       ]
     },
     "tenis2.jpg": {
-      "title": "Air Max TN Black",
-      "desc": "Silhueta TN (Air Max Plus) em preto com unidade Tuned Air (TN) proporcionando amortecimento reativo e visual agressivo. Excelente para uso urbano com estilo marcante.",
+      "title": "Air Max TN White",
+      "desc": "Silhueta TN clássica em branco puro. Amortecimento Tuned Air reativo, design agressivo e presença marcante. Uma escolha ousada para quem quer destaque no street wear.",
       "sources": [
         {"title":"Air Max Plus — Nike Official","url":"https://www.nike.com/air-max-plus","snippet":"Página oficial do Air Max Plus (TN) com imagens, tecnologias e opções de cores."},
         {"title":"Air Max Plus — Review (RunRepeat)","url":"https://runrepeat.com/nike-air-max-plus-review","snippet":"Review com foco no ajuste, amortecimento Tuned Air e durabilidade do Air Max Plus."}
       ]
     },
     "tenis3.jpg": {
-      "title": "Air Max TN Blue",
-      "desc": "Silhueta TN (Air Max Plus) em azul com unidade Tuned Air (TN), combinando conforto e design esportivo. Ideal para quem busca presença visual com bom amortecimento.",
+      "title": "Air Max TN Black",
+      "desc": "A silhueta TN em azul vibrante combina conforto superior com estética futurista. Tecnologia Tuned Air para amortecimento reativo e passada confortável. Ideal para o dia a dia.",
       "sources": [
         {"title":"Air Max Plus — Nike Official","url":"https://www.nike.com/air-max-plus","snippet":"Página oficial do Air Max Plus (TN) com imagens, tecnologias e opções de cores."},
         {"title":"Air Max Plus — Review (Sneaker News)","url":"https://sneakernews.com/?s=air+max+plus","snippet":"Cobertura de lançamentos e reviews do Air Max Plus em diferentes colorways."}
       ]
     },
     "tenis4.jpg": {
-      "title": "Vans Old Skool",
-      "desc": "Tênis icônico com lateral em couro sintético e a faixa lateral clássica, projetado originalmente para skate mas amplamente usado no dia a dia. Combina durabilidade e estilo vintage.",
+      "title": "Air Max TN Ocean",
+      "desc": "Um ícone das ruas. Couro sintético durável, faixa lateral icônica e sola vulcanizada. Perfeito para skate, casual ou lifestyle — versátil e atemporal.",
       "sources": [
         {"title":"Old Skool — Vans Official","url":"https://www.vans.com/shop/shoes-classics-old-skool","snippet":"Página oficial do Old Skool com opções de cores e informações sobre materiais."},
         {"title":"Vans Old Skool — Review (The Guardian)","url":"https://www.theguardian.com/fashion/vans-old-skool-review","snippet":"Comentário sobre o sucesso cultural do modelo e seu apelo atemporal."}
       ]
     },
     "tenis5.jpg": {
-      "title": "Puma Suede Classic",
-      "desc": "Modelo clássico em camurça com design limpo e sotaque retrô, pensado para conforto urbano e aparência elegante. Versátil para looks casuais e lifestyle.",
+      "title": "Air Max TN Purple",
+      "desc": "A camurça delicada da PUMA em um design retro que nunca sai de moda. Perfil limpo, conforto urbano e estilo que funciona com qualquer roupa — o básico perfeito.",
       "sources": [
         {"title":"Suede Classic — PUMA Official","url":"https://us.puma.com/en/us/pd/suede-classic","snippet":"Página oficial com detalhes do material suede e opções de cores."},
         {"title":"Puma Suede — História e Review","url":"https://www.highsnobiety.com/puma-suede-history-review","snippet":"Contexto histórico do Suede e sua influência na cultura streetwear."}
       ]
     },
     "tenis6.jpg": {
-      "title": "New Balance 574",
-      "desc": "Modelo clássico New Balance com foco em conforto e durabilidade, adequado para uso diário. Estilo retro com combinação de materiais no cabedal.",
+      "title": "Air Max 95 Rose",
+      "desc": "O clássico conforto New Balance. Retro com combinação de materiais, amortecimento todo o dia e design que envelheceu bem. Para quem valoriza conforto sem abrir mão do estilo.",
       "sources": [
         {"title":"574 Core — New Balance","url":"https://www.newbalance.com/pd/574-classic/574.html","snippet":"Página oficial do 574 com descrições de materiais e opções de tamanhos."},
         {"title":"New Balance 574 — Review (WearTesters)","url":"https://weartesters.com/new-balance-574-review","snippet":"Análise do ajuste e conforto do 574 para uso cotidiano."}
       ]
     },
     "tenis7.jpg": {
-      "title": "ASICS GEL-KAYANO",
-      "desc": "Tênis de running com sistema GEL para amortecimento e estabilidade, indicado para corridas e treinos regulares. Combina tecnologia de suporte com acabamento contemporâneo.",
+      "title": "ASICS GEL-KAYANO Runner",
+      "desc": "Tecnologia GEL aperfeiçoada para amortecimento e estabilidade em corridas. Sistema de suporte avançado e acabamento técnico. Feito para corredores sérios que buscam desempenho.",
       "sources": [
         {"title":"GEL-KAYANO — ASICS Official","url":"https://www.asics.com/us/en-us/gel-kayano/c/gel-kayano","snippet":"Página oficial com tecnologias embarcadas e versões do modelo GEL‑KAYANO."},
         {"title":"ASICS GEL-KAYANO — Review (Runner's World)","url":"https://www.runnersworld.com/asics-gel-kayano-review","snippet":"Revisão técnica focada em estabilidade e experiência de corrida."}
       ]
     },
     "tenis8.jpg": {
-      "title": "Reebok Classic Leather",
-      "desc": "Tênis retro em couro com perfil limpo e sola confortável, ideal para quem busca um visual minimalista e tradição. Fácil de combinar em looks casuais.",
+      "title": "Air Force Suns",
+      "desc": "Couro premium em um design minimalista que remete aos anos 80. Sola confortável, perfil limpo e versátil — combina com qualquer look casual ou dress code descontraído.",
       "sources": [
         {"title":"Classic Leather — Reebok Official","url":"https://www.reebok.com/us/classic-leather","snippet":"Página oficial do Classic Leather com imagens e opções de cores."},
         {"title":"Reebok Classic Leather — História (Hypebeast)","url":"https://hypebeast.com/reebok-classic-leather-history","snippet":"Contexto cultural e evolução do modelo Classic Leather."}
       ]
     },
     "tenis9.jpg": {
-      "title": "Air Jordan 1",
-      "desc": "Tênis icônico da linha Jordan com design inspirado no basquete e forte apelo fashion. Versão versátil que transita entre performance e lifestyle.",
+      "title": "Air Max TN Asian",
+      "desc": "O tênis que revolucionou o basquete e a moda. Design icônico, presença ousada e apelo fashion incomparável. Transita perfeito entre performance e lifestyle premium.",
       "sources": [
         {"title":"Air Jordan 1 — Nike Jordan","url":"https://www.nike.com/jordan","snippet":"Seção oficial Jordan com modelos Air Jordan 1 e lançamentos relacionados."},
         {"title":"Air Jordan 1 — História e Impacto","url":"https://www.complex.com/sneakers/air-jordan-1-history","snippet":"Artigo detalhando a história e a influência da AJ1 na cultura sneaker."}
       ]
     },
     "tenis10.jpg": {
-      "title": "Skechers D'Lites",
-      "desc": "Modelo com sola robusta e estilo chunky, pensado para conforto diário com estética retrô. Apelo para quem busca amortecimento e presença visual.",
+      "title": "Skechers D'Lites Chunky",
+      "desc": "Sola robusta e presença marcante. Estilo chunky retrô que combina amortecimento generoso com aparência descontraída. O conforto que se vê de longe.",
       "sources": [
         {"title":"D'Lites — Skechers Official","url":"https://www.skechers.com/dlites","snippet":"Página oficial com variantes do D'Lites e informações sobre amortecimento."},
         {"title":"Skechers D'Lites — Review (Footwear News)","url":"https://footwearnews.com/skechers-dlites-review","snippet":"Comentário sobre popularidade e conforto do modelo D'Lites."}
       ]
     },
-    "tenis11.jpg": {
-      "title": "Mizuno Wave Rider",
-      "desc": "Tênis de corrida conhecido pelo amortecimento reativo e placa Wave que fornece transição suave. Adequado para corredores que buscam equilíbrio entre resposta e conforto.",
-      "sources": [
-        {"title":"Wave Rider — Mizuno Official","url":"https://www.mizunousa.com/c/wave-rider","snippet":"Página oficial com tecnologias Wave e especificações de diferentes gerações."},
-        {"title":"Mizuno Wave Rider — Review (Believe In The Run)","url":"https://www.believeintherun.com/mizuno-wave-rider-review","snippet":"Análise técnica sobre amortecimento e comportamento em corrida."}
-      ]
-    },
     "tenis12.jpg": {
-      "title": "Hoka Clifton",
-      "desc": "Tênis com entressola macia e perfil acolchoado que prioriza amortecimento leve e conforto para longas caminhadas ou corridas. Design minimalista e ajuste confortável.",
+      "title": "Hoka Clifton Ultralight",
+      "desc": "Entressola macia como uma nuvem, perfil acolchoado e amortecimento leve. Design minimalista e ajuste confortável para longas caminhadas, corridas ou uso diário. Conforto garantido.",
       "sources": [
         {"title":"Clifton — HOKA Official","url":"https://www.hoka.com/en/us/clifton/","snippet":"Página oficial com descrições de amortecimento e versões do Clifton."},
         {"title":"Hoka Clifton — Review (Runner's World)","url":"https://www.runnersworld.com/hoka-clifton-review","snippet":"Avaliação destacando o conforto e aplicações ideais do Clifton."}
@@ -196,20 +188,20 @@ document.addEventListener('DOMContentLoaded',()=>{
     list.forEach(p=>{
       const card = document.createElement('div');
       card.className='card';
-      // adicionar ribbon aleatório de "Novo" ou "Oferta" para chamar atenção
       const isOffer = (p.id % 4 === 0);
       card.innerHTML = `
         ${isOffer?'<div class="ribbon">OFERTA</div>':''}
-        <img loading="lazy" src="${p.img}" alt="${p.title}" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\\'http://www.w3.org/2000/svg\\' width=\\'600\\' height=\\'400\\'><rect width=\\'100%\\' height=\\'100%\\' fill=\\'%23e6e9ef\\'/><text x=\\'50%\\' y=\\'50%\\' dominant-baseline=\\'middle\\' text-anchor=\\'middle\\' fill=\\'%23717a84\\' font-size=\\'20\\'>Imagem ausente</text></svg>'" />
-        <h4>${p.title}</h4>
-        <div class="meta">Código: #${p.id} — ${p.filename}</div>
-        <div class="price">${formatPrice(p.price)}</div>
+        <img loading="lazy" src="${p.img}" alt="${p.title}" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\\'http://www.w3.org/2000/svg\\' width=\\'600\\' height=\\'400\\'><rect width=\\'100%\\' height=\\'100%\\' fill=\\'%23e2e8f0\\'/><text x=\\'50%\\' y=\\'50%\\' dominant-baseline=\\'middle\\' text-anchor=\\'middle\\' fill=\\'%2394a3b8\\' font-size=\\'20\\'>Imagem indisponível</text></svg>'" />
+        <div class="card-content">
+          <div class="meta">Código #${p.id}</div>
+          <h4>${p.title}</h4>
+          <div class="price">${formatPrice(p.price)}</div>
           <div class="actions">
-            <button class="btn" data-id="${p.id}">Detalhes</button>
-            <button class="btn" data-add="${p.id}">Comprar</button>
-            <button class="btn whatsapp" data-ws="${p.id}">WhatsApp</button>
-            <button class="btn" data-edit="${p.filename}">Editar</button>
+            <button class="btn btn-primary" data-id="${p.id}">Detalhes</button>
+            <button class="btn btn-primary" data-add="${p.id}">Comprar</button>
           </div>
+          <button class="btn whatsapp" data-ws="${p.id}" style="width: 100%; margin-top: 8px;">WhatsApp</button>
+        </div>
       `;
       grid.appendChild(card);
     });
@@ -258,13 +250,8 @@ document.addEventListener('DOMContentLoaded',()=>{
   let currentProduct = null;
 
   grid.addEventListener('click', (e)=>{
-    const filenameToEdit = e.target.dataset.edit;
     const id = e.target.dataset.id || e.target.dataset.add;
     const wsId = e.target.dataset.ws;
-    if(filenameToEdit){
-      openEditModal(filenameToEdit);
-      return;
-    }
     if(wsId){
       const prod = products.find(x=>x.id==wsId);
       const message = `Olá! Tenho interesse no produto: ${prod.title} (Código: #${prod.id}). Preço: R$ ${prod.price.toFixed(2).replace('.',',')}. Como faço para comprar?`;
@@ -347,41 +334,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     });
   }
 
-  // --- Edição de produtos (admin in-browser) ---
-  const editModal = document.getElementById('editModal');
-  const closeEdit = document.getElementById('closeEdit');
-  const cancelEdit = document.getElementById('cancelEdit');
-  const saveEdit = document.getElementById('saveEdit');
-  const editTitle = document.getElementById('editTitle');
-  const editPrice = document.getElementById('editPrice');
-  const editDesc = document.getElementById('editDesc');
-  let editingKey = null;
-
-  function openEditModal(filename){
-    editingKey = filename;
-    const meta = loadMeta();
-    const data = meta[filename] || {};
-    const prod = products.find(p=>p.filename===filename);
-    editTitle.value = data.title || prod.title || '';
-    editPrice.value = data.price !== undefined ? data.price : prod.price;
-    editDesc.value = data.desc || prod.desc || '';
-    editModal.classList.remove('hidden');
-  }
-  function closeEditModal(){ editingKey = null; editModal.classList.add('hidden'); }
-
-  closeEdit.addEventListener('click', closeEditModal);
-  document.getElementById('cancelEdit').addEventListener('click', closeEditModal);
-  document.getElementById('saveEdit').addEventListener('click', ()=>{
-    if(!editingKey) return closeEditModal();
-    const meta = loadMeta();
-    meta[editingKey] = { title: editTitle.value.trim(), price: Number(editPrice.value) || 0, desc: editDesc.value.trim() };
-    saveMeta(meta);
-    // atualizar produtos em memória
-    products.forEach(p=>{ if(p.filename===editingKey){ p.title = meta[editingKey].title; p.price = meta[editingKey].price; p.desc = meta[editingKey].desc; } });
-    renderProducts(products);
-    closeEditModal();
-    updateCartUI();
-  });
+  // --- Edição de produtos (admin in-browser) REMOVIDO ---
 
   cartBtn.addEventListener('click',()=>{
     cartDrawer.classList.remove('hidden');
