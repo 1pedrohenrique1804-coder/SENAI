@@ -1,4 +1,9 @@
-let nome = "matheus"
+ /* pedro h
+ 06/07
+ coleta variaveis e as aplica em uma frase
+ */ 
+
+ let nome = "pedro"
 //cria uma variavel
 let idd = 15
 //cria uma variavel
@@ -9,7 +14,5 @@ let cdd = "sao jose"
 let prof = "comPUTAção"
 //cria uma variavel
 
-//mostra as variaveis numa frase
-console.log("Meu nome é ", nome, "tenho" ,idd ," anos", "nasci em ", anoNascimento, "moro em", cdd, "e trabalho na" ,prof)
 //mostra as variaveis numa frase
 console.log(`Meu nome é ${nome} tenho ${idd} anos nasci em ${anoNascimento} moro em ${cdd} e trabalho com ${prof}`)

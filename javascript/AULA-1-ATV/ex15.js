@@ -1,9 +1,9 @@
 /*
-matheus m
+pedro h
 06/07
 */
 
-let nome = "matheus"
+let nome = "pedro"
 let idade = 15
 let hobby = "correr"
 

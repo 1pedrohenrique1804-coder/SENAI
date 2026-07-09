@@ -1,4 +1,4 @@
-let nome = "matheus"
+let nome = "pedro"
 let idade = 15
 let logado = true
 

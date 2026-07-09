@@ -1,6 +1,6 @@
 // === DADOS PESSOAIS ===
 
-const nome = "matheus";
+const nome = "pedro";
 let idade = 15;
 
 // === DADOS DO CURSO ===
